@@ -44,9 +44,34 @@ body {
     display: block;
 }
 
-.ativo {
+.botao.ativo {
     background-color: var(--BOTAO-ATIVO);
     border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--TEXTO-DE-FUNDO);
+    padding: 40px;
+    border-radius: ;
+}
+
+.aba-conteudo.botao.ativo {
+    display:block
+}
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
+.aba-conteudo-titulo-secundario{
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
